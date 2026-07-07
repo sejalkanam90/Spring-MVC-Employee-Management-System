@@ -21,11 +21,11 @@
 			<property name="jakarta.persistence.jdbc.url" 
 				value="jdbc:mysql://localhost:3306/employeemanagement?createDatabaseIfNotExist=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC" />
 
-			<property name="jakarta.persistence.jdbc.user" 
-				value="root" />
-				
-			<property name="jakarta.persistence.jdbc.password" 
-				value="Sejal@28" />
+			<property name="jakarta.persistence.jdbc.user"
+          value="YOUR_DB_USERNAME" />
+
+          <property name="jakarta.persistence.jdbc.password"
+          value="YOUR_DB_PASSWORD" />
 
 			<property name="hibernate.dialect" 
 				value="org.hibernate.dialect.MySQL8Dialect" />
